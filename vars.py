@@ -18,7 +18,7 @@ ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to ow
 # Channel Configuration
 PREMIUM_CHANNEL = ""
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.ibb.co/cj2fpry/x.jpg").split())) # Image Link For Default Thumbnail 
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.ibb.co/sTW3zmx/x.jpg").split())) # Image Link For Default Thumbnail 
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
