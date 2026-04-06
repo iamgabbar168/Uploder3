@@ -4,10 +4,10 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "26184715"))
 API_HASH = os.environ.get("API_HASH", "7fc42fe25c89660b4e0b00dd7aa0beb1")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8326636735:AAHe91u3eGfSmTEgTrPzzmMDbMbUCyByQps")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8600063088:AAFNxDulVgOQlc4xS9bAomGNJOykITivs6w")
 
 CREDIT = os.environ.get("CREDIT", "♻️GABBAR♻️")
-# MongoDB Configuration
+# MongoDB Configurationfrom os import environ
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "GABBAR")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://dubeyji0995:Gqaqduzpm98kT6ZF@cluster0.ekxizvl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
